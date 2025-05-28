@@ -1,0 +1,13 @@
+{
+  "clientes": [
+    {
+      "id": "4556",
+      "nombre": "Angel",
+      "apellido": "Macea",
+      "email": "amacea21@gmail.com",
+      "telefono": "344-345-3245",
+      "empresa": "Mindset",
+      "puesto": "Programador"
+    }
+  ]
+}
