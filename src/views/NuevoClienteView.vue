@@ -56,7 +56,7 @@
 </template>
 
 <script setup>
-import axios from 'axios'
+import axios from '../lib/axios'
 import RouterLink from '../components/UI/RouterLink.vue'
 import Heading from '../components/UI/Heading.vue'
 import { FormKit } from '@formkit/vue'
@@ -69,7 +69,7 @@ defineProps({
 })
 const handleSubmit = (data) => {
   axios
-    .post('http://localhost:4000/clientes', data)
+    .post('clientes', data)
     .then((respuesta) => {
       router.push({ name: 'listado-clientes' })
     })

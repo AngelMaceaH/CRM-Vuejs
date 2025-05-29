@@ -1,0 +1,36 @@
+# Dependencias
+node_modules/
+
+# Archivos de construcción
+dist/
+build/
+
+# Archivos de logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Configuraciones del editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Cache de npm y yarn
+.cache/
+.pnp.*
+/.env.local
+/.env.*.local
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de cobertura de tests
+coverage/
+
+# Archivos temporales
+*.tmp
+*.temp
